@@ -34,6 +34,4 @@ def kde(samples, h):
     # stack vectors into matrix
     estDensity = np.stack((pos, results), axis=2)
 
-    print(estDensity.shape)
-
     return estDensity[0]
